@@ -1,9 +1,9 @@
 # disease-searcher
 
 ## Description
-This is a project made by some friends and me. Using some **natural language processing**, it can detect diseases in a text.
+This is a project developed by my colleagues and me. Using natural language processing techniques, it can identify diseases mentioned in a text.
 
-Using some NLP libraries, we can detect all those terms related to medicine, thanks to the search for disease prefixes and suffixes (hypo, hyper...). Based on them, we can classify the diseases found in their different types (Pain, Infection...). Subsequently, a Spanish medical dictionary (https://www.cun.es/diccionario-medico/terminos/) is accessed to find its definitions. Once searched, the output is generated: a .txt document with all the medical terms found, with their definition and type, as well as their invariable form (lexema). In addition, if specific variations of a disease are found (ductal carcinoma, squamous cell carcinoma...), only the definition of the general disease will be given and a section will be added for its variations.
+The program employs disease prefixes and suffixes (e.g., hypo-, hyper-) to detect relevant medical terms, and then classifies them into various categories (such as pain or infection). Next, it queries a Spanish medical dictionary (https://www.cun.es/diccionario-medico/terminos/) to obtain definitions for the identified terms. The output is generated in the form of a .txt file, which includes a list of all the medical terms found, along with their definitions, types, and lemmas. If the program detects variations of a disease (such as ductal carcinoma or squamous cell carcinoma), it only provides the definition of the general disease, while also adding a separate section for its variations.
 
 Example:  
 *carcinoma: m. Neoplasia maligna constituida por celulas epiteliales anáplasicas con capacidad metastásica.  
